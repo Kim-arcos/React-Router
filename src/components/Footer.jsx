@@ -7,13 +7,13 @@ function Footer() {
       <footer>
        <ul className="footer-links">
         <li>
+        <Link to="/">home</Link>
+        </li>
+        <li>
           <Link to="/Blue">blue</Link>
         </li>
         <li>
-          <Link to="/Red">red</Link>
-        </li>
-        <li>
-          <Link to="/">home</Link>
+        <Link to="/Red">red</Link>
         </li>
       </ul>
     </footer>

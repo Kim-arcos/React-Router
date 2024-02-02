@@ -15,11 +15,12 @@ function App() {
       <div id="container">
         <h1>Hello React Router!</h1>
         <div id="navbar">
+        <Link to="/">home</Link>
           <Link to="/Blue">blue</Link>
           <Link to="/Red">red</Link>
-          <Link to="/">home</Link>
 
         </div>
+        <p id="text">Click Blue or Red!</p>
         <div id="main-section">
           <Routes>
             <Route path="/blue" element={<Blue />} />

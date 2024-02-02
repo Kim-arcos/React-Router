@@ -61,3 +61,12 @@ body > div {
 .footer-links li {
   margin-right: 0px;
 }
+
+#text{
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(108, 110, 108);
+  font-weight: bold;
+  margin-top: 0px;
+  padding: 0em;
+}
